@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Ash Nebula – A Firefox Theme",
+  "version": "1.0",
+  "author": "The Sikh Artist",
+  "theme": {
+    "images": {
+      "theme_frame": "images/bg.png",
+      "additional_backgrounds": [
+        "images/stars.png",
+        "images/nebula.png"
+      ]
+    },
+    "colors": {
+      "frame": "#020617",
+      "toolbar": "#0f172a",
+      "toolbar_text": "#e0f2fe",
+      "tab_background_text": "#ffffff"
+    },
+    "properties": {
+      "additional_backgrounds_alignment": ["top", "top"],
+      "additional_backgrounds_tiling": ["repeat-x", "no-repeat"]
+    }
+  }
+}

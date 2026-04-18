@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Ash Verdant Calm – A Firefox Theme",
+  "version": "1.0",
+  "author": "The Sikh Artist",
+  "theme": {
+    "images": {
+      "theme_frame": "images/bg.png",
+      "additional_backgrounds": [
+        "images/leaves.png"
+      ]
+    },
+    "colors": {
+      "frame": "#14532d",
+      "toolbar": "#166534",
+      "toolbar_text": "#bbf7d0",
+      "tab_background_text": "#ffffff"
+    },
+    "properties": {
+      "additional_backgrounds_alignment": ["top"],
+      "additional_backgrounds_tiling": ["repeat-x"]
+    }
+  }
+}
