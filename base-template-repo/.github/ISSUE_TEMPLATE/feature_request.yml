@@ -1,0 +1,36 @@
+name: "💡 Feature Request"
+description: "Suggest a new idea or improvement for a TechQuanta project."
+title: "[FEATURE]: <short summary>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💡 Thanks for your suggestion! Please fill out the following fields to help us understand your idea.
+  - type: input
+    id: summary
+    attributes:
+      label: "Feature summary"
+      placeholder: "Example: Add dark mode support"
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Why do you want this feature?"
+      placeholder: "Explain the problem this would solve or the value it adds."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Describe your proposed solution"
+      placeholder: "How would this feature work?"
+  - type: dropdown
+    id: impact
+    attributes:
+      label: "Impact level"
+      options:
+        - High (affects many users)
+        - Medium
+        - Low

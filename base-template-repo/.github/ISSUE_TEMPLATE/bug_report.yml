@@ -1,0 +1,43 @@
+name: "🐛 Bug Report"
+description: "Report a bug or unexpected behavior in a TechQuanta project."
+title: "[BUG]: <short summary>"
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 👋 Thanks for reporting!
+        Please fill out the details below to help us fix this issue faster.
+  - type: input
+    id: summary
+    attributes:
+      label: "Describe the bug"
+      placeholder: "Example: The app crashes when clicking 'Save'"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      placeholder: "1. Go to...\n2. Click...\n3. See error..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      placeholder: "What did you expect to happen?"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots (optional)"
+      description: "If applicable, add screenshots to help explain your problem."
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Environment"
+      options:
+        - Web
+        - Mobile
+        - Backend
+        - CLI
