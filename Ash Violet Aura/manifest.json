@@ -1,25 +1,28 @@
 {
   "manifest_version": 2,
-  "name": "Ash Violet Aura – A Firefox Theme",
-  "version": "1.0",
+  "name": "Ash Violet Aura",
+  "version": "3.2",
   "author": "The Sikh Artist",
   "theme": {
     "images": {
-      "theme_frame": "images/bg.png",
+      "theme_frame": "images/image.png",
       "additional_backgrounds": [
-        "images/aura.png",
-        "images/glow.png"
+        "images/image.png"
       ]
     },
     "colors": {
-      "frame": "#581c87",
-      "toolbar": "#6b21a8",
-      "toolbar_text": "#e9d5ff",
+      "frame": "#4f46e5",
+      "toolbar": "#4f46e5",
+      "toolbar_text": "#ffffff",
       "tab_background_text": "#ffffff"
     },
     "properties": {
-      "additional_backgrounds_alignment": ["top", "top"],
-      "additional_backgrounds_tiling": ["no-repeat", "no-repeat"]
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "no-repeat"
+      ]
     }
   }
 }
